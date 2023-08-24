@@ -13,7 +13,6 @@ import useStyles from './ReportStyle'; // Import the styles
 import Sidebar from '../Sidebar/Sidebar';
 import Navbar from '../Navbar/Navbar';
 
-
 const Reports = () => {
   const classes = useStyles();
   

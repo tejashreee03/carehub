@@ -1,7 +1,7 @@
 import React from 'react';
 import { TextField, Button, Container, Grid, Typography } from '@mui/material';
 import useStyles from './Styles';
-import './Auth.css';
+// import './Auth.css';
 
 const Auth = () => {
   const classes = useStyles();

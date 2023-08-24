@@ -1,6 +1,6 @@
 import React,{useState} from 'react';
 import profilePic from '../image/people.png';
-
+import '../main.css';
 
 export const Navbar = (props) => {
  const [bool,setBool]=useState(false);

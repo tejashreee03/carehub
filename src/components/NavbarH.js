@@ -65,7 +65,7 @@ function NavbarH() {
                     </Link>
                   </li> */}
                   <li className='nav-item'>
-                    <Link to='/Dashboard' className='nav-links'  onClick={closeMobileMenu}>
+                    <Link to='/dashboard' className='nav-links'  onClick={closeMobileMenu}>
                       Dashboard
                     </Link>
                   </li>

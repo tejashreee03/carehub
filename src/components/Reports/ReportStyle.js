@@ -24,6 +24,7 @@ const useStyles = makeStyles((theme) => ({
     transition: 'margin-left 0.3s',
     [theme.breakpoints.down('sm')]: {
       marginLeft: 0, // Collapse the margin on smaller screens
+
     },
   },
   card: {

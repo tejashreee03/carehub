@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import './Sidebar.css';
+import '../main.css';
 
 
 export const Sidebar= (props) => {
@@ -12,7 +12,7 @@ export const Sidebar= (props) => {
     </a>
     <ul className="side-menu top">
         <li className={props.active}>
-            <Link to="/"  aria-current="page">
+            <Link to="/dashboard"  aria-current="page">
                 <i className='bx bxs-dashboard' ></i>
                 <span className="text">Dashboard</span>
             </Link>

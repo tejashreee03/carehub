@@ -4,6 +4,14 @@
     padding: 0;
     font-family: 'PT Sans', sans-serif;
 }
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
 :root {
 	--poppins: 'Poppins', sans-serif;
 	--lato: 'Lato', sans-serif;
@@ -21,3 +29,21 @@
 	--light-orange: #FFE0D3;
 	--black:black;
 }
+html {
+	overflow-x: hidden;
+}
+
+body.dark {
+	--light: #0C0C1E;
+	--grey: #060714;
+	--dark: #FBFBFB;
+	--black:white;
+}
+
+body {
+	background: var(--grey);
+	overflow-x: hidden;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+

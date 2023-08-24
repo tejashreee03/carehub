@@ -7,6 +7,8 @@ import Home from './components/pages/HomePage/home';
 import Auth from './components/pages/Auth/Auth';
 import Reports from './components/Reports/Reports'
 import Reminder from './components/Reminder/Reminder';
+import Dashboard from './components/Dashboard';
+import Appointment from './components/Appointment';
 
 const theme = createTheme(); // Create your theme instance
 
@@ -20,7 +22,9 @@ function App() {
           
           <Route path='/auth' element={<Auth />} />
           <Route path="/reports" element={<Reports/>} />
-          <Route path="/reminders" element={<Reminder/>} />
+          <Route path="/Reminder" element={<Reminder/>} />
+          <Route path="/dashboard" element={<Dashboard/>} />
+          <Route path="/Appointment" element={<Appointment/>} />
         </Routes>
       </Router>
     </ThemeProvider>
