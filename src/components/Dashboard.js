@@ -2,6 +2,8 @@ import React,{useState} from 'react';
 import Sidebar from './Sidebar/Sidebar';
 import Navbar from './Navbar/Navbar';
 import './main.css';
+import { Link } from "react-router-dom";
+import CardsUi from './CardsUi';
 
 const Dashboard = (props) => {
   const[bool,SetBool]=useState(false)
@@ -31,8 +33,16 @@ const Dashboard = (props) => {
 						</li>
 					</ul>
 				</div>
+				<Link to="/pdf"  aria-current="page">
+				<div className="btn-download">
+					<i className='bx bxs-plus-circle' ></i>
+					<span className="text"> Add Collection </span>
+				</div>
+				</Link>
+
 				
 			</div>
+			<CardsUi />
 			
 		</main>
 		</section>
